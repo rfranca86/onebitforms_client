@@ -1,0 +1,17 @@
+.not-found {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color: black;
+    min-height: 100%;
+    width: 100%;
+    position: fixed;
+    text-align: center;
+}
+
+.not-found a {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
