@@ -16,6 +16,6 @@ export class QuestionService {
   }
 
   destroyQuestion(question_id) {
-    return this._tokenService.delete('questions/' + question_id).map(res =&gt; res.json());
+    return this._tokenService.delete('questions/' + question_id).map(res => res.json());
   }
 }
